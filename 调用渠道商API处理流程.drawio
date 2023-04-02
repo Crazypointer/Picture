@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2023-04-02T14:22:58.807Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.6" etag="tpLvw5ju--vDTWuwz0LK" type="github"><diagram name="第 1 页" id="ANhzKHGN1Ul2ID8FsTww">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-02T14:31:30.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-gOq1g_NGkFbGN2T-_vM" version="21.0.6" type="github">
+  <diagram name="第 1 页" id="ANhzKHGN1Ul2ID8FsTww">
+    <mxGraphModel dx="1194" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="120" width="180" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="120" width="180" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-1" value="消息推送系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="270" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-2" value="腾讯云短信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-3" value="阿里云短信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-4" value="华为云短信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-5" value="......" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hNBUkFglXr3jOG9Z5rxl-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="410" as="sourcePoint" />
+            <mxPoint x="245" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-8" value="规则检查/风控/业务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="290" as="sourcePoint" />
+            <mxPoint x="505" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-11" value="&amp;nbsp;移动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="170" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-12" value="联通" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-13" value="电信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-14" value="调用api" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-15" value="调用api" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNBUkFglXr3jOG9Z5rxl-16" value="下发短信" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
